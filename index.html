@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=as, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+            integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Loan</title>
+    </head>
+    <body>
+        <div class="container-fluid back-ground-1 p-4 text-white">
+            <div class="container">
+                <div class="p-2">
+                    <img src="./images/logo.png" class="mb-3" alt="" />
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 p-2">
+                        <h2 class="fw-bold">Save Up to $300 a Month on Your Electric Bills</h2>
+
+                        <p class="fw-bold">Get your free quote from local installers in 3 min</p>
+
+                        <ul class="white-60 mt-2 p-0 ul-1">
+                            <li class="li-1">Get a Free solar savings report</li>
+                            <li class="li-1">See your personalized costs & savings</li>
+                            <li class="li-1">Check out incentives in your state</li>
+                            <li class="li-1">Compare prices from local installers</li>
+                        </ul>
+
+                        <div class="text-center">
+                            <button class="btn-1 text-white fw-bold p-2">
+                                Get your Free Quote Now
+                            </button>
+
+                            <p class="mt-2 font-size-1">
+                                100% Free, No obligation, Takes only 30 seconds
+                            </p>
+
+                            <div class="mt-2 font-size-1">
+                                Rated <b>4.9</b>/5 from <b>53,709</b> reviews
+                            </div>
+
+                            <img width="100px" src="./images/trust.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-lg-6 my-auto col-md-12 d-flex justify-content-center h-90 pt-4 bg-white text-dark text-center slider-1"
+                    >
+                        <div class="slider">
+                            <h2 class="fw-bold">Real Customer,</h2>
+                            <h2 class="fw-bold">Real Result</h2>
+                            <div class="slides">
+                                <div class="slide d-flex justify-content-center">
+                                    <div class="h-100">
+                                        <div
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <img
+                                                class="rounded-circle border-1"
+                                                width="95px"
+                                                src="./images/user-avt.png"
+                                                alt=""
+                                            />
+                                            <div class="px-3">
+                                                <p class="fw-bold mb-2 text-start">
+                                                    Joseph A. Cruz
+                                                </p>
+                                                <img src="./images/5-star.png" alt="" />
+                                            </div>
+                                        </div>
+
+                                        <p>
+                                            Wish I'd gotten solar panels sooner. my wife won't stop
+                                            talking about how much we're saving. we’re saving $300 a
+                                            month on electric bills.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="slide">
+                                    <div>
+                                        <div
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <img
+                                                class="rounded-circle border-1"
+                                                width="95px"
+                                                height="95px"
+                                                src="./images/user-avt-1.jpg"
+                                                alt=""
+                                            />
+                                            <div class="px-3">
+                                                <p class="fw-bold mb-2">King Athur</p>
+                                                <img src="./images/5-star.png" alt="" />
+                                            </div>
+                                        </div>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Recusandae beatae velit quaerat dolorum rem alias
+                                            corrupti nostrum a error assumenda ipsum ea vel eaque,
+                                            ratione consequatur temporibus veritatis, enim
+                                            praesentium.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="slide">
+                                    <div>
+                                        <div
+                                            class="d-flex align-items-center justify-content-center"
+                                        >
+                                            <img
+                                                class="rounded-circle border-1"
+                                                width="95px"
+                                                height="95px"
+                                                src="./images/user-avt-2.jpg"
+                                                alt=""
+                                            />
+                                            <div class="px-3">
+                                                <p class="fw-bold mb-2">Harry Potter</p>
+                                                <img src="./images/5-star.png" alt="" />
+                                            </div>
+                                        </div>
+
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                                            elit. Nulla architecto iure, debitis eos dolorum ipsa
+                                            repudiandae. Modi distinctio natus, et iusto beatae
+                                            quos! Officia voluptatum repudiandae id quis ullam amet.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Navigation buttons -->
+                            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container p-5 pb-2">
+            <div class="mb-5">
+                <h2>Switch to Solar with No</h2>
+                <h2>Upfront Cost and Risk-Free</h2>
+            </div>
+
+            <div class="row gx-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 shadow-sm p-3 mb-5 bg-body rounded">
+                    <img src="./images/image-2-1.png" />
+                    <div class="mt-5">
+                        <h5>Rock-Solid Warranty</h5>
+                        <p style="color: #6f6d68">
+                            Top-rated solar panels backed by a 30-year performance guarantee.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 shadow-sm p-3 mb-5 bg-body rounded">
+                    <img src="./images/image-2-2.png" />
+                    <div class="mt-5">
+                        <h5>Big Savings, Local Perks</h5>
+                        <p style="color: #6f6d68">
+                            Score tax credits, state incentives, and cash rewards – all tailored to
+                            where you live!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 shadow-sm p-3 mb-5 bg-body rounded">
+                    <img src="./images/image-2-3.png" />
+                    <div class="mt-5">
+                        <h5>$0 Down Installation</h5>
+                        <p style="color: #6f6d68">
+                            Get solar set up with zero upfront costs. Start saving right away!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 shadow-sm p-3 mb-5 bg-body rounded">
+                    <img src="./images/image-2-4.png" />
+                    <div class="mt-5">
+                        <h5>No Strings Attached</h5>
+                        <p style="color: #6f6d68">
+                            Chat with trusted pros, get free quotes, no payment info needed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-white p-5 back-ground-2">
+            <div class="px-5">
+                <h2 class="my-5 text-capitalize fw-bold">Get your free quote in 3 steps</h2>
+                <div class="d-flex my-4">
+                    <img src="./images/image-3-1.png" alt="" />
+                    <div class="ms-4">
+                        <p>Step 1</p>
+                        <p class="fw-bold fs-5">Apply Online</p>
+                        <div>Quick and simple—just complete our secure form.</div>
+                    </div>
+                </div>
+                <div class="d-flex my-4">
+                    <img src="./images/image-3-2.png" alt="" />
+                    <div class="ms-4">
+                        <p>Step 2</p>
+                        <h5>Get Quotes</h5>
+                        <p>Solar quotes will be sent for easy comparison.</p>
+                    </div>
+                </div>
+                <div class="d-flex my-4">
+                    <img src="./images/image-3-3.png" alt="" />
+                    <div class="ms-4">
+                        <p>Step 3</p>
+                        <h5>Select & Save</h5>
+                        <p>Begin saving with solar energy!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pt-3">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <div class="shadow-sm bg-body rounded width-160">
+                    <img src="./images/image-4-1.png" width="100%" alt="" />
+                </div>
+                <div class="shadow-sm bg-body rounded width-160">
+                    <img src="./images/image-4-2.png" width="100%" alt="" />
+                </div>
+                <div class="shadow-sm bg-body rounded width-160">
+                    <img src="./images/image-4-3.png" width="100%" alt="" />
+                </div>
+                <div class="shadow-sm bg-body rounded width-160">
+                    <img src="./images/image-4-4.png" width="100%" alt="" />
+                </div>
+                <div class="shadow-sm bg-body rounded width-160">
+                    <img src="./images/image-4-5.png" width="100%" alt="" />
+                </div>
+                <div class="shadow-sm bg-body rounded width-160">
+                    <img src="./images/image-4-6.png" width="100%" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+            integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+            integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            let currentSlide = 0
+            const slides = document.querySelector('.slides')
+            const totalSlides = document.querySelectorAll('.slide').length
+
+            function moveSlide(n) {
+                currentSlide = (currentSlide + n + totalSlides) % totalSlides
+                slides.style.transform = `translateX(-${currentSlide * 100}%)`
+            }
+        </script>
+    </body>
+</html>

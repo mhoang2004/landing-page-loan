@@ -1,0 +1,153 @@
+.back-ground-1 {
+    background-image: linear-gradient(to right, #1f2748, transparent),
+        url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.li-1 {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    list-style: none;
+}
+
+.li-1:before {
+    display: block;
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+
+    background: url('./images/mdi_tick-circle-outline.png') no-repeat left center;
+    background-size: contain;
+
+    content: '';
+}
+
+.white-60 {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-1 {
+    background-color: #2cb81d;
+    width: 100%;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+}
+
+.btn-1:hover {
+    opacity: 0.8;
+}
+
+.font-size-1 {
+    font-size: 14px;
+}
+
+.border-radius-1 {
+    border-radius: 24px;
+}
+
+.border-1 {
+    border-style: solid;
+    border-color: green;
+    border-width: thin;
+}
+
+/* Custom black next/prev icons */
+.carousel-control-prev-icon {
+    background-image: url('./images/vector-right.png');
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-control-next-icon {
+    background-image: url('./images/vector-left.png');
+    opacity: 1;
+}
+
+.slider-1 {
+    width: 500px;
+    padding-top: 10px;
+    border-radius: 24px;
+}
+
+/* Slider container */
+.slider {
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* Slides container */
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+/* Each slide */
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+}
+
+.stars {
+    color: #f0c040;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.comment {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Buttons */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #000;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+.prev {
+    left: -10px;
+}
+.next {
+    right: -10px;
+}
+
+.back-ground-2 {
+    background-image: linear-gradient(to right, #1f2748, transparent),
+        url('./images/background-3.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.width-160 {
+    width: 160px;
+}
